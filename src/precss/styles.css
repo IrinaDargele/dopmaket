@@ -1,0 +1,426 @@
+body{
+    background: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.active{
+    color: #1d9d73;
+}
+
+ul{
+    padding:0;
+    list-style-type: none;
+}
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+.header .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header li{
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.create_cute_websites{
+    background: url(../img/Layer_33.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.create_cute_websites .wrapper{
+    text-align: center;
+    color: #fff;
+    padding: 210px 0px;
+}
+
+.h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.h2{
+    font-size: 35px;
+    margin: 30px 0;
+    font-weight: 300;
+}
+
+.h3{
+    font-size: 20px;
+    margin: 30px 0;
+    font-weight: 300;
+}
+
+.green_letters{
+    color: #1d9d73;
+}
+
+.grey_letters{
+    color:  #888888;
+}
+
+#menu-checkbox{
+    display: none;
+}
+
+.menu-button{
+    display: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.two_button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button{
+    width: 200px;
+    border: 1px solid #fff;
+    padding: 20px 0;
+    margin: 15px 15px;
+    border-radius: 30px;
+}
+
+.button:hover{
+    background: #1d9d73;
+    border: 1px solid #1d9d73;
+}
+
+.present_your_site{
+    text-align: center;
+}
+
+.p{
+    margin: 30px 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+.gallery_item, .gallery_servis, .gallery_package, .from_the_blog_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.gallery_servis{
+    padding:  30px 0;
+}
+
+.item, .servis, .package{
+    margin: 0 15px;
+    width: calc(100% / 3 - 30px);
+}
+
+.item img{
+    display: block;
+    margin: 0 auto;
+}
+.item a{
+    display: block;
+}
+
+.servis{
+    display: flex;
+}
+
+.servis_icon{
+    min-width: 70px;
+    margin-top: 20px;
+}
+
+.servis_icon img{
+    display: block;
+    text-align: center;
+}
+
+.servis_description{
+    margin-left: 15px;
+}
+
+.read_more{
+    background: #f6f8fa;
+}
+
+.discover_the_advantages .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantages_flex{
+    width: calc(100%/2);
+    text-align: left;
+}
+
+.advantages{
+    display: flex;
+    align-items: center;
+}
+
+.gray_circle{
+    min-width: 58px;
+    min-height: 58px;
+    border-radius: 50%;
+    background-color:  #f6f8fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.green_rectangles{
+    display: flex;
+}
+
+.green{
+    text-align: center;
+    width: calc(100% / 3);
+    color: #fff;
+    padding: 95px 40px;
+}
+
+.green_color_1{
+    background: #19a97b;
+}
+
+.green_color_2{
+    background: #179e73;
+}
+
+.green_color_3{
+    background: #14946c;
+}
+
+.green_rectangles img{
+    height: 58px;
+}
+
+.green_h{
+    font-size: 25px;
+}
+
+.green_p{
+    font-size: 14px;
+}
+
+.green_h{
+    margin: 20px 0;
+}
+
+.from_the_blog .wrapper, .footer .wrapper, .affordable_packages .wrapper{
+    text-align: center;
+}
+
+.from_the_blog a{
+    display: block;
+}
+.button_2{
+    width: 200px;
+    background: #1d9d73;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.statistic{
+    background: url(../img/Layer_34.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.statistic .wrapper{
+    text-align: center;
+}
+
+.statistic_flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 140px 0;
+}
+
+.statistic_flex_item{
+    width: calc(100%/4 - 30px);
+    margin: 0 15px;
+}
+
+.green_circle{
+    width: 119px;
+    height: 119px;
+    border-radius: 50%;
+    margin: 20px auto;
+    background-color:  #239d73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    color:#fff;
+    font-size: 45px;
+    padding: 22px 0;
+}
+
+.package ul{
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+}
+
+.price_ul li{
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.cross:before{
+    content: url(../img/Slice_36.png);
+    padding-right: 10px;
+}
+
+.check_mark:before{
+    content: url(../img/Slice_35.png);
+    padding-right: 10px;
+}
+
+.designer, .package{
+    background: #f6f8fa;
+}
+
+.designer .wrapper{
+    text-align: center;
+}
+
+.slider{
+    padding: 40px 90px;
+}
+
+.telefon, .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.telefon img, .copyright img{
+    display: block;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1090px){
+    .advantages_flex{
+        width: 100%;
+        text-align: center;
+    }
+
+    .advantages{
+        justify-content: center;
+    }
+
+    .create_cute_websites .wrapper {
+        padding: 30px 0;
+    }
+    .servis{
+        margin: 0 15px;
+        width: calc(100% / 2 - 30px);
+    }
+
+    .gallery_servis{
+        padding: 0;
+    }
+
+    .green{
+        padding: 40px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .statistic_flex{
+        margin: 10px 0;
+    }
+
+    .advantages_flex .p{
+        margin: 0 30px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 890px){
+
+    .gallery_item, .from_the_blog_item, .gallery_package{
+        justify-content: center;
+    }
+
+    .item, .package{
+        width: calc(100% / 2 - 30px);
+    }
+
+    .package{
+        margin: 10px 15px;
+    }
+
+    .statistic_flex_item {
+        width: calc(100%/2 - 30px);
+    }
+
+    .header .wrapper, .green_rectangles{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+    .green_p{
+        padding: 0 40px;
+    }
+
+    .menu ul{
+        display: none;
+    }
+    #menu-checkbox:checked ~ ul{
+        display: block;
+    }
+
+    .menu li{
+        display: block;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (max-width: 710px){
+    .gallery_servis{
+        justify-content: center;
+    }
+
+    .servis {
+        width: calc(100% - 50px);
+    }
+    .slider {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .item, .package, .statistic_flex_item{
+        width: calc(100% - 30px);
+    }
+}
